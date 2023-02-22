@@ -1,4 +1,5 @@
 # FSJS_Project-7_React-Gallery-App
+<<<<<<< HEAD
 
 The sixth of ten projects for the Full Stack JavaScript Techdegree program at TreeHouse.
 
@@ -13,3 +14,6 @@ The sixth of ten projects for the Full Stack JavaScript Techdegree program at Tr
 - CSS styles.css file has been modified to customize styles
 
 > Ready for marking...
+=======
+The seventh of ten projects for the Full stack Javascript Techdegree program at TreeHouse. 
+>>>>>>> b4ff3d829d1a9397e62931d6c4993596359baf5e
