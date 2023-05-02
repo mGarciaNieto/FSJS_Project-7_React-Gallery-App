@@ -28,9 +28,10 @@
 # OS generated files #
 ######################
 .DS_Store
-.DS_Store?
+.DS_Store? 
 ehthumbs.db
 Thumbs.db
+config.js
 
 ###VSCode###
 .vscode
@@ -61,6 +62,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
 # Logs
 logs
 *.log
