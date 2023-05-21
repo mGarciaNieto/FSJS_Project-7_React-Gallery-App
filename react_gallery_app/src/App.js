@@ -30,7 +30,7 @@ export default function App() {
 					setPhotos(response.data.photos.photo)
 				}
 			})
-			.catch((error) => console.log('Error fetching and parsing data', error))
+			.catch((error) => console.log('Error fetching and parsing data: ', error))
 	}
 
 	useEffect(() => {
@@ -52,7 +52,7 @@ export default function App() {
 					<Route path='/cats' element={<Gallery data={cats} />} />
 					<Route path='/dogs' element={<Gallery data={dogs} />} />
 					<Route path='/computers' element={<Gallery data={computers} />} />
-					<Route path='/search/:keyword' element={<Gallery data={photos} />} />
+					<Route path='/search/:keyWord' element={<Gallery data={photos} />} />
 					<Route path='*' element={<NotFound404Error />} />
 				</Routes>
 			)}

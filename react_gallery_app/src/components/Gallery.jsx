@@ -7,7 +7,7 @@ export const Gallery = ({ data }) => {
 	let itemsResults = null
 
 	if (photoItems.length > 0) {
-		itemsResults = photoItems.map((item) => <GalleryItem id={item.id} key={item.id} title={item.title} server={item.server} secret={item.secret} />)
+		itemsResults = photoItems.map((item) => <GalleryItem key={item.id} id={item.id} title={item.title} server={item.server} secret={item.secret} />)
 	} else {
 		itemsResults = <NotFoundResults />
 	}
