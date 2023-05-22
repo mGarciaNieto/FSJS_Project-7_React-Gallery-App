@@ -45,7 +45,7 @@ export default function App() {
 			<SearchForm onSearch={handleSearch} setLoading={setLoading} />
 			<Nav />
 			{loading ? (
-				<p>Loading, please wait...</p>
+				<h2>Loading, please wait...</h2>
 			) : (
 				<Routes>
 					<Route path='/' element={<Navigate to='/cats' />} />

@@ -8,8 +8,8 @@ body {
 }
 
 h2 {
-  font-family: 'Architects Daughter', cursive;
-  font-weight:bolder;
+	font-family: 'Architects Daughter', cursive;
+	font-weight: bolder;
 	font-size: 2.5em;
 	margin: 52px 0 40px;
 	text-transform: capitalize;
@@ -98,6 +98,20 @@ input {
 .photo-container .not-found {
 	width: 100%;
 }
+
+@keyframes fadeIn {
+	0% {
+		transform: translateX(-150px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
+}
+
+.fadeInElement {
+	animation: fadeIn 2s;
+}
+
 
 @media only screen and (max-width: 767px) {
 	body {
