@@ -85,6 +85,7 @@ input {
 	margin-bottom: 15px;
 	box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
 	border: 1px solid black;
+	opacity: 0;
 }
 
 .photo-container ul img {
@@ -103,10 +104,34 @@ input {
 
 @keyframes fadeIn {
 	0% {
-		transform: translateX(-150px);
+		opacity: 0;
+		transform: translateX(-200px);
 	}
 	100% {
+		opacity: 1;
 		transform: translateX(0px);
+	}
+}
+
+@keyframes spin {
+	0% {
+		opacity: 0;
+		transform: rotate(0deg);
+	}
+	100% {
+		opacity: 1;
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes spin2 {
+	from {
+		opacity: 0;
+		transform: rotate(180deg);
+	}
+	to {
+		opacity: 1;
+		transform: rotate(360deg);
 	}
 }
 

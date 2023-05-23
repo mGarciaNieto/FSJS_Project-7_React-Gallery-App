@@ -1,9 +1,10 @@
 import React from 'react'
 
 export const GalleryItem = ({ server, id, secret, title }) => {
-	let randomAniDelay = Math.floor(Math.random() * 500)
+	let randomAniDelay = Math.floor(Math.random() * 1000)
+
 	let myStyle = {
-		animation: `fadeIn 2s .${randomAniDelay}s ease forwards`
+		animation: `spin2 3s .${randomAniDelay}s ease forwards`
 	}
 
 	return (
